@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=0, initial-scale=1.0" />
+    <title>Flexbox Practice</title>
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: row">
+      <div style="background-color: lightblue">div1</div>
+      <div style="background-color: lightcoral">
+        div2
+        <p>Text</p>
+      </div>
+    </div>
+    <div style="margin-top: 50px; display: flex; flex-direction: row">
+      <div style="background-color: lightblue; flex: 1">div1</div>
+      <div style="background-color: lightcoral; width: 100px">
+        div2
+        <p>Text</p>
+      </div>
+    </div>
+    <div style="margin-top: 50px; display: flex; flex-direction: row">
+      <div style="background-color: lightblue; flex: 1">div1</div>
+      <div style="background-color: lightcoral; flex: 2">
+        div2
+        <p>Text</p>
+      </div>
+      <div style="background-color: lightblue; flex: 1">div1</div>
+    </div>
+    <div
+      style="
+        border: 1px solid black;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">div1</div>
+      <div style="background-color: lightcoral; width: 100px">
+        div2
+        <p>Text</p>
+      </div>
+      <div style="background-color: lightblue; width: 100px">div1</div>
+    </div>
+    <div
+      style="
+        border: 1px solid black;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">div1</div>
+      <div style="background-color: lightcoral; width: 100px">
+        div2
+        <p>Text</p>
+      </div>
+      <div style="background-color: lightblue; width: 100px">div1</div>
+    </div>
+  </body>
+</html>

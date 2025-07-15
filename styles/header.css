@@ -1,0 +1,154 @@
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  z-index: 100;
+}
+
+.hamburger-menu {
+  width: 24px;
+  margin: 0 24px;
+}
+.youtube-logo {
+  height: 20px;
+}
+.search-button {
+  height: 40px;
+  width: 60px;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(192, 192, 192);
+  margin-left: -1px;
+  margin-right: 10px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.search-icon {
+  height: 25px;
+}
+.search-bar {
+  flex: 1;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 1px solid rgb(192, 192, 192);
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+
+  z-index: 100;
+  box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+  width: 0;
+}
+.search-bar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+}
+
+.search-bar:focus {
+  outline: 0;
+  border: 1px solid rgb(50, 100, 255);
+}
+
+.voice-search-icon {
+  height: 24px;
+}
+.voice-search-button {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: 0;
+  background-color: rgb(245, 245, 245); }
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.middle-section {
+  flex: 1;
+  margin: 0 20px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 180px;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.upload-icon {
+  height: 24px;
+}
+.youtube-apps-icon {
+  height: 24px;
+}
+.notifications-icon {
+  height: 24px;
+}
+.my-channel-icon {
+  cursor: pointer;
+  height: 36px;
+  border-radius: 18px;
+}
+.image-button {
+  background-color: none;
+  border: none;
+}
+
+.tooltip-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.tooltip-container > .tooltip {
+  opacity: 0;
+}
+
+.tooltip-container:hover > .tooltip {
+  opacity: 1;
+}
+
+.tooltip {
+  transition: opacity 0.15s;
+  position: absolute;
+  bottom: -50px;
+  color: white;
+  font-family: Roboto, "Arial";
+  font-size: 12px;
+  padding: 8px;
+  width: max-content;
+  border-radius: 2px;
+  background-color: rgba(60, 60, 60, 0.85);
+}
+
+.badge {
+  position: absolute;
+  top: -2px;
+  border: 1px solid white;
+  right: -6px;
+  border-radius: 10px;
+  background-color: rgb(200, 40, 40);
+  color: white;
+  font-family: Roboto, "Arial";
+  font-size: 10px;
+  padding: 2px 5px;
+}
