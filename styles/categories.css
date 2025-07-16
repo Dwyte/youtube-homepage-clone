@@ -1,0 +1,47 @@
+.categories {
+  position: fixed;
+  top: 60px;
+  left: 80px;
+  right: 0;
+  z-index: 100;
+  padding: 12px 24px;
+  overflow: hidden;
+}
+
+.scroll-container {
+  box-sizing: border-box;
+  padding: 4px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+}
+
+.right-scroll-button {
+  position: absolute;
+  right: 4px;
+  background-color: rgb(255, 255, 255);
+  padding: 6px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.right-scroll-button:hover {
+  background-color: rgb(230, 230, 230);
+  outline: 4px solid rgba(0, 0, 0, 0.1);
+}
+
+.chip {
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  padding: 8px 12px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 8px;
+  margin-right: 16px;
+  text-wrap: nowrap;
+  cursor: pointer;
+}
+
+.chip-active {
+  background-color: rgb(10, 10, 10);
+  color: white;
+}

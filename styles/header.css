@@ -7,12 +7,16 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
   z-index: 100;
   padding: 0 4px;
 }
+
+.header-background { 
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
 
 .hamburger-menu {
   width: 24px;
@@ -119,14 +123,11 @@
 }
 
 .upload-icon {
-  height: 24px;
+  height: 26px;
   margin-right: 8px;
 }
-.youtube-apps-icon {
-  height: 24px;
-}
 .notifications-icon {
-  height: 24px;
+  height: 26px;
 }
 .my-channel-icon {
   cursor: pointer;
