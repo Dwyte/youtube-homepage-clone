@@ -1,5 +1,5 @@
 .header {
-  height: 55px;
+  height: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -91,13 +91,36 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 180px;
+  width: 225px;
   justify-content: space-between;
-  margin-right: 20px;
+  margin-right: 24px;
   flex-shrink: 0;
 }
+
+.upload-button {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 14px;
+  border: 0;
+  border-radius: 25px; 
+}
+
+.notifications-container {
+  margin: 0 12px;
+}
+
+.my-channel-container {
+  width: 50px;
+  text-align: right;
+}
+
 .upload-icon {
   height: 24px;
+  margin-right: 8px;
 }
 .youtube-apps-icon {
   height: 24px;
