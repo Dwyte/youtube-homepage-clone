@@ -7,7 +7,7 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 100;
+  z-index: 101;
   padding: 0 4px;
 }
 
@@ -111,10 +111,22 @@
   padding: 7px 14px;
   border: 0;
   border-radius: 25px; 
+  cursor: pointer;
+}
+
+.upload-button:hover{
+  background-color: rgb(225, 225, 225);
+  cursor: pointer;
 }
 
 .notifications-container {
   margin: 0 12px;
+}
+
+.notifications-container:hover {
+  background-color: rgb(225, 225, 225);
+  border-radius: 25px;
+  padding: 8px;
 }
 
 .my-channel-container {
@@ -165,17 +177,19 @@
   width: max-content;
   border-radius: 2px;
   background-color: rgba(60, 60, 60, 0.85);
+  z-index: 9999;
 }
+
 
 .badge {
   position: absolute;
-  top: -2px;
+  top: -1px;
   border: 1px solid white;
-  right: -6px;
-  border-radius: 10px;
+  right: -3px;
+  border-radius: 8px;
   background-color: rgb(200, 40, 40);
   color: white;
   font-family: Roboto, "Arial";
   font-size: 10px;
-  padding: 2px 5px;
+  padding: 1px 4px;
 }
