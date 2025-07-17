@@ -1,5 +1,5 @@
 .shorts-container {
-  margin: 24px 0;
+  margin: 50px 0;
 }
 
 .shorts-header {
@@ -15,9 +15,13 @@
   row-gap: 40px;
 }
 
+.shorts-header {
+  margin-bottom: 24px;
+}
+
 .shorts-colored-icon {
   width: 24px;
-  margin: 8px;
+  margin: 0 8px;
 }
 
 .shorts-title {
@@ -29,4 +33,15 @@
 .shorts-info-grid {
   display: grid;
   grid-template-columns: 1fr 25px;
+}
+
+@media (max-width: 800px) {
+  .shorts-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .shorts-grid > :nth-child(4),
+  .shorts-grid > :nth-child(5) {
+    display: none;
+  }
 }
