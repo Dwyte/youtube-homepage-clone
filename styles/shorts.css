@@ -1,0 +1,32 @@
+.shorts-container {
+  margin: 24px 0;
+}
+
+.shorts-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.shorts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+.shorts-colored-icon {
+  width: 24px;
+  margin: 8px;
+}
+
+.shorts-title {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Roboto, "Arial";
+}
+
+.shorts-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 25px;
+}
